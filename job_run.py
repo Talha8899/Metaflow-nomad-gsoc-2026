@@ -2,6 +2,8 @@ import requests
 import json
 from result_nomad import get_stdout
 
+#this file can run a job file on nomad by using is api then fatch stdout and show on terminal
+
 
 
 try:
