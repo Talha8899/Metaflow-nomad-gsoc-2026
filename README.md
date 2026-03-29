@@ -234,11 +234,10 @@ python submit_job_fatch_results.py
 | GSoC 2026 Project | [Metaflow Nomad Integration](https://docs.metaflow.org/internals/gsoc-2026) |
 | Metaflow | [github.com/Netflix/metaflow](https://github.com/Netflix/metaflow) |
 | Reference Extension | [outerbounds/metaflow-slurm](https://github.com/outerbounds/metaflow-slurm) |
-| My PRs on metaflow-slurm | [Pull Requests](https://github.com/outerbounds/metaflow-slurm/pulls) |
+| My OpenPRs on metaflow-slurm | [Pull Requests](https://github.com/outerbounds/metaflow-slurm/pulls) |
 | My MergdPRs on metaflow-slurm | [Pull Requests](https://github.com/outerbounds/metaflow-slurm/pull/16) |
 | Nomad HTTP API | [developer.hashicorp.com/nomad/api-docs](https://developer.hashicorp.com/nomad/api-docs) |
 | python-nomad | [pypi.org/project/python-nomad](https://pypi.org/project/python-nomad) |
-https://github.com/outerbounds/metaflow-slurm/pull/16
 ---
 
 ## 👤 About
