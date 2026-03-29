@@ -32,14 +32,20 @@ This repository explores every piece of that missing integration — from job su
 
 ```
 Metaflow-nomad-gsoc-2026/
-metaflow_nomad/
-│
-├── result_nomad.py               # Result fetching via GET /v1/job/:id/allocations
-├── retry_decorater.py            # Retry logic — resubmit failed jobs
-├── stepsflow_metaflow.py         # Metaflow flow with steps + decorator lifecycle
-└── submit_job_fatch_results.py   # End-to-end: submit → monitor → fetch logs
-```
-
+├── metaflow_nomad/
+│   │
+│   ├── __init__.py                    # Package initializer
+│   ├── job_run.py                     # Handles execution flow of Nomad jobs
+│   ├── nomad_structure.py             # Defines Nomad job specification structure
+│   ├── result_nomad.py                # Fetches results via Nomad allocations API
+│   ├── retry_decorator.py             # Retry logic for failed job executions
+│   ├── stepsflow_metaflow.py          # Metaflow flow with step lifecycle integration
+│   └── submit_job_fetch_results.py    # End-to-end: submit → monitor → fetch results
+├── .git/                              # Git repository metadata
+├── LICENSE                            # Open-source license
+├── README.md                          # Project documentation
+├── firstjob.hcl                       # Sample Nomad job configuration file
+├── logger_logic.py                    # Custom logging utility for job tracking/debugging
 ---
 
 ## 🔬 What Each File Explores
